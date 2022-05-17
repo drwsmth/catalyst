@@ -38,3 +38,4 @@ The [`disconnectedCallback()` is part of Custom Elements][ce-callbacks], and get
 The [`adoptedCallback()` is part of Custom Elements][ce-callbacks], and gets called when your element moves from one `document` to another (such as an iframe). It's very unlikely to occur, you'll almost never need this.
 
 [ce-callbacks]: https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#Using_the_lifecycle_callbacks
+

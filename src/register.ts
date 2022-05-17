@@ -8,7 +8,7 @@ import {dasherize} from './dasherize.js'
  *
  * Example: HelloController => hello-controller
  */
-export function register<T extends CustomElementClass>(classObject: T): T {
+export function register<T extends CustomElementClass>(classObject: T) {
   const name = dasherize(classObject.name).replace(/-(element|controller|component)$/, '')
 
   try {
